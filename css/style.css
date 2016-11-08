@@ -50,6 +50,8 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
+
+
 hr.star-light {
   border-color: white;
 }
@@ -107,6 +109,11 @@ header .intro-text .skills {
 #profileImage {
 
   border-radius:50%;
+}
+
+hr.contactStar{
+background-color:#2C3E50;
+color:white;
 }
 
 .navbar-custom {
