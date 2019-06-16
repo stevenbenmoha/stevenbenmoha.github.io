@@ -1,0 +1,27 @@
+﻿<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="jumbotron" style="background-image: url(src/assets/blockchain.png);
+background-size: 8%">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">
+                <alert></alert>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- credits -->
+<div class="text-center">
+    <p>
+        <a href="https://en.wikipedia.org/wiki/Health_care_in_the_United_States" target="_top">This is a link to wherever</a>
+    </p>
+</div>
